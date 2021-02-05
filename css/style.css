@@ -9,19 +9,32 @@ Orange typography + Prototype buttons #EC8462
 
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.6;
   color: #4d4d4d;
 }
 
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px 0px #b6b6b6;
+  text-align: center;
+  position: relative;
+}
+
 h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 900;
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 1.4;
 }
 h2 {
@@ -32,15 +45,23 @@ h3 {
   font-weight: 600;
   line-height: 1.4;
 }
-h4,
+
+h4 {
+  font-size: 0.9em;
+  color: #9b9b9b;
+  font-weight: 500;
+}
+
 h5 {
-  line-height: 1.4;
+  line-height: 1;
   font-weight: 600;
   color: #359bb3;
 }
+
 h6 {
   color: #707070;
   font-weight: 500;
+  text-align: center;
 }
 
 #subheader-id {
@@ -80,6 +101,7 @@ a:focus {
   border-bottom: 2px solid;
   transition: 0.2s opacity;
   font-size: 0.8em;
+  text-align: center;
 }
 
 .button:hover {
@@ -98,13 +120,12 @@ a:focus {
   background-color: #ec8462;
   color: #ffffff;
   font-weight: 600;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 50px;
   border-radius: 10px;
   border-bottom: 2px solid;
   transition: 0.2s opacity;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  margin-bottom: 30px;
 }
 
 .button:hover {
@@ -139,4 +160,124 @@ a:focus {
 .button:active {
   color: #4d4d4d;
   text-decoration: none;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 25px;
+}
+
+#work .row {
+  margin: 25px 0;
+}
+
+.hero {
+  background-color: #fff4ea;
+  padding: 50px 0px;
+  padding-bottom: 60px;
+}
+
+#hero h1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.logo {
+  max-width: 250px;
+  text-align: center;
+  padding: 10px 35px;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 50px 0px;
+  box-shadow: 0px 4px 12px 0px #e0e0e0;
+  border-radius: 15px;
+  padding: 10px 15px;
+  padding-bottom: 30px;
+}
+
+.project-heading {
+  margin-top: 50px;
+}
+
+#contact {
+  background-color: #fff4ea;
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about-intro {
+  background-color: #fff4ea;
+  padding: 50px 0px;
+  display: inline-block;
+  width: 100%;
+}
+
+.my-story {
+  padding: 50px 0px;
+  display: inline-block;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dark-background {
+  background-color: #359bb3;
+  color: #ffffff;
+  padding: 40px 0px;
+}
+
+.outside {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.caption {
+  text-align: center;
+}
+
+#insights > li {
+  margin: 10px 0px;
+}
+
+.text-section {
+  padding: 40px 0px;
+}
+
+.mini-logo {
+  max-width: 70px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+#footer-caption {
+  margin-top: 5px;
+  margin-bottom: 40px;
 }
