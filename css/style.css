@@ -217,6 +217,9 @@ nav > ul > li > a {
   padding: 10px 25px;
   padding-bottom: 30px;
 }
+#project-card svg {
+  width: 100%;
+}
 
 .project-heading {
   margin-top: 50px;
@@ -249,7 +252,7 @@ nav > ul > li > a {
 .dark-background {
   background-color: #359bb3;
   color: #ffffff;
-  padding: 40px 0px;
+  padding: 60px 0px;
 }
 
 .outside {
@@ -286,6 +289,32 @@ nav > ul > li > a {
 
 #spacing {
   padding-top: 30px;
+}
+
+.customImgwrapper {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.customImgwrapper2 {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.customImgwrapper3 {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.customImgwrapper4 {
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 60px;
 }
 
 /* ==============================
