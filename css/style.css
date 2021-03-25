@@ -246,8 +246,8 @@ nav > ul > li > a {
   padding: 60px 0px;
 }
 
-.outside {
-  padding-top: 0;
+#outside {
+  padding-top: 0px;
   padding-bottom: 20px;
 }
 
@@ -283,7 +283,7 @@ nav > ul > li > a {
 }
 
 .customImgwrapper {
-  max-width: 500px;
+  max-width: 250px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -424,6 +424,39 @@ Medium devices (640px and larger)
   div.dark-background div.row {
     padding-bottom: 0px;
   }
+  .col-lg-6 {
+  width: 50%;
+  }
+  .col-lg-6 {
+  width: 50%;
+  }
+  .col-lg-5 {
+  width: 40%;
+  }
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  [class*="col-"] {
+  float: left;
+  padding: 20px;
+  }
+
+  .col-lg-7 {
+  width: 60%;
+  padding-left: 0px;
+  }
+  .row {
+  padding: 10px 0px;
+  }
+  
+  #list1 {
+    padding-top: 0px;
+  }
+  #list2 {
+    padding-top: 60px;
+  }
 }
 
 /* ==============================
@@ -438,32 +471,6 @@ Large devices (1024px or larger)
     font-size: 15px;
   }
 
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-5 {
-    width: 40%;
-  }
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  [class*="col-"] {
-    float: left;
-    padding: 20px;
-  }
-
-  .col-lg-7 {
-    width: 60%;
-    padding-left: 0px;
-  }
-  .row {
-    padding: 10px 0px;
-  }
   .container {
     padding: 0 130px;
   }
@@ -492,7 +499,6 @@ Large devices (1024px or larger)
   }
   #ladyboss-title {
     font-size: 1.5em;
-  }
 }
 
 /* ==============================
